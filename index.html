@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment solution module2.1</title>
+    <link rel="stylesheet" href="module2solution.css">
+</head>
+
+<style>
+        body{
+    margin: 0px;
+    padding: 0px;
+    font-family: fantasy;
+}
+.container{
+    width: 97%;
+    text-align: center;
+    padding: 10px;
+}
+.container div{
+    display: block;
+    margin: 0.5rem;
+    width: 31%;
+    float: left;
+    border: 2px solid black;
+    background-color: lightgrey;
+}
+.container div h2{
+    font-size: 25px;
+    float: right;
+    margin-left: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+}
+#box1 h2{
+    background-color: lightpink;
+    font-family: monospace;
+}
+#box2 h2{
+    background-color: darkred;
+    font-family: monospace;
+    color: white;
+}
+#box3 h2{
+    background-color: peachpuff;
+    font-family: monospace;
+}
+.container div p{
+    margin: 3px;
+}
+@media (max-width:767px){
+    #box2{
+        clear: both;
+    }
+    #box3{
+        clear: both;
+    }
+    .container {
+        width: 600px;
+        margin: auto;
+    }
+    .container div{
+        margin-left: 13rem;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    #box3{
+        clear: both;
+        width: 65%;
+        margin-left: 10rem;
+    }
+    #box1{
+        margin-left: 10rem;
+    }
+}
+
+</style>
+<body>
+    <div class="container">
+        <h1>Our Menu</h1>
+        <div id="box1"><h2>Chicken</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non esse voluptas odio quibusdam tempora, reiciendis error hic deserunt officiis minima accusamus rerum animi magnam fuga.</p></div>
+        <div id="box2"><h2>Beef</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda velit voluptate, maxime quos inventore labore harum perspiciatis illo cupiditate. Impedit, error vitae? Dolorum, optio vero.</p></div>
+        <div id="box3"><h2>Sushi</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptatum cupiditate repellat perferendis maiores omnis dolorum nam, at eius soluta id assumenda neque sequi sunt?</p></div>
+    </div>
+</body>
+</html>
